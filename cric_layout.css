@@ -1,0 +1,30 @@
+/* Layout */
+nav {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    margin: 0 10px;
+}
+
+section {
+    float: left;
+    width: 70%;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    section {
+        width: 100%;
+        float: none;
+    }
+}

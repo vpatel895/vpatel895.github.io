@@ -1,0 +1,36 @@
+
+
+CSS File: cricket_layout.css
+/* Float Layout */
+section {
+  float: left;
+  width: 60%;
+  padding: 20px;
+  background-color: rgb(186, 136, 81);;
+  margin: 20px;
+}
+
+/* Grid Layout */
+section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 20px;
+}
+
+/* Positioning */
+section {
+  position: relative;
+}
+
+/* Overflow */
+section {
+  overflow: auto;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+  section {
+    width: 100%;
+    margin: 10px;
+  }
+}

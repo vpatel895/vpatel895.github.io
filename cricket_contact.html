@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Set metadata of the document -->
+    <meta charset="UTF-8">
+    <title>Cricket Equipment Store - Contact</title>
+    <!-- Link to CSS files -->
+    <link rel="stylesheet" href="cric_styles.css">
+    <link rel="stylesheet" href="cric_layout.css">
+</head>
+<body>
+    <!-- Navigation bar -->
+    <nav>
+        <ul>
+		<li><a href="cricket_home.html">Home</a></li>
+            <li><a href="cri_cricketbats.html">Cricket Bats</a></li>
+            <li><a href="cri_gloves.html">Gloves</a></li>
+            <li><a href="cri_pads.html">Pads</a></li>
+            <li><a href="cri_helmets.html">Helmets</a></li>
+            <li><a href="cricket_home.html">Home</a></li>
+            <li><a href="products.html">Products</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main content --->
+    <section>
+        <h1>Contact Us</h1>
+        <img src="contact-us.jpg" alt="Contact Us">
+        <p>Have any questions or feedback? Reach out to us using the form below.</p>
+
+        <!-- Form with multiple fieldsets -->
+        <form>
+            <fieldset>
+                <legend>Personal Information</legend>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="phone">Phone:</label>
+                <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" required>
+            </fieldset>
+
+            <fieldset>
+                <legend>Message</legend>
+                <textarea id="message" name="message" required></textarea>
+            </fieldset>
+
+            <fieldset>
+                <legend>Category</legend>
+                <label for="category">Choose a category:</label>
+                <select id="category" name="category">
+                    <option value="general">General Inquiry</option>
+                    <option value="product">Product Inquiry</option>
+                    <option value="order">Order Inquiry</option>
+                </select>
+            </fieldset>
+
+            <button type="submit">Submit</button>
+            <button type="reset">Cancel</button>
+        </form>
+    </section>
+
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="cric_styles.css">
+</body>
+</html>
